@@ -1,0 +1,36 @@
+{
+  "name": "elm-interop-example",
+  "version": "1.0.0",
+  "description": "Example Elm program",
+  "author": "Miëtek Bak <hello@mietek.io>",
+  "homepage": "https://github.com/mietek/elm-interop-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mietek/elm-interop-example.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-check-es2015-constants": "^6.3.13",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.4.0",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.3.13",
+    "babel-plugin-transform-es2015-block-scoping": "^6.4.0",
+    "css-loader": "^0.23.1",
+    "elm-webpack-loader": "^2.0.0",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.5",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "reload-browsers": "^1.1.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.11"
+  },
+  "scripts": {
+    "postinstall": "elm package install --yes",
+    "build": "node_modules/.bin/webpack --config=webpack.config.js",
+    "dev-build": "node_modules/.bin/webpack --config=webpack.dev-config.js",
+    "start": "node bin/server.js",
+    "clean": "rm -rf elm-stuff node_modules npm-debug.log out"
+  }
+}
