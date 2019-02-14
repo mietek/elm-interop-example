@@ -1,3 +1,10 @@
+-------------------------------------------------------------------------------
+
+This project is no longer maintained.
+
+-------------------------------------------------------------------------------
+
+
 _elm-interop-example_
 =====================
 
@@ -94,4 +101,4 @@ CONFIG=webpack.config.js bin/start
 About
 -----
 
-Made by [Miëtek Bak](https://mietek.io/).  Published under the [MIT X11 license](LICENSE.md).
+Made by [Miëtek Bak](https://mietek.io/).  Published under the BSD license.
